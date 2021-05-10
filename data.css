@@ -1,0 +1,54 @@
+
+
+
+body {
+    background-color: rgb(70, 77, 62);
+    color: white;
+  }
+  .main{
+    background-color: rgb(99, 106, 168);
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .info-text{
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      max-width: 1300px;
+      text-align: center;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .foto{
+      text-align: center;
+      width: 200px;
+      height: 300px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  #logo{
+      text-align: left;
+      width: 40px;
+      height: 40px;
+      margin-top: 8px;
+  }
+  .sub-title{
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+  .small-list{
+      margin-left: 50px;
+      color: rgb(38, 192, 120);
+  }
+  #mainCalculator{
+      margin-top: 50px;
+      text-align: center;
+  }
+  .cal{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }

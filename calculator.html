@@ -1,0 +1,120 @@
+<html>
+<link type="text/css" rel="stylesheet" href="data.css" />
+
+
+<body>
+
+  <script type="text/javascript">
+    var action = 0;
+
+    function myfunctionsum() {
+      var first = document.getElementById("textbox1").value;
+      var second = document.getElementById("textbox2").value;
+      var answer = parseFloat(first) + parseFloat(second);
+      var textbox3 = document.getElementById('textbox3');
+      textbox3.value = answer;
+      action = 1;
+    }
+
+    function myfunctionminus() {
+      var first = document.getElementById("textbox1").value;
+      var second = document.getElementById("textbox2").value;
+      var answer = parseFloat(first) - parseFloat(second);
+      var textbox3 = document.getElementById('textbox3');
+      textbox3.value = answer;
+      action = 2;
+    }
+
+    function myfunctionmal() {
+      var first = document.getElementById("textbox1").value;
+      var second = document.getElementById("textbox2").value;
+      var answer = parseFloat(first) * parseFloat(second);
+      var textbox3 = document.getElementById('textbox3');
+      textbox3.value = answer;
+      action = 3;
+    }
+
+    function myfunctiondvide() {
+      var first = document.getElementById("textbox1").value;
+      var second = document.getElementById("textbox2").value;
+      var answer = parseFloat(first) / parseFloat(second);
+      var textbox3 = document.getElementById('textbox3');
+      textbox3.value = answer;
+      action = 4;
+    }
+
+    function incrementValue1() {
+      var first = document.getElementById("textbox1").value;
+      first++;
+      document.getElementById('textbox1').value = first;
+      refresh();
+    }
+
+    function DecrementValue1() {
+      var first = parseInt(document.getElementById('textbox1').value);
+      first--;
+      document.getElementById('textbox1').value = first;
+      refresh();
+    }
+
+    function incrementValue2() {
+      var second = parseInt(document.getElementById('textbox2').value);
+      second++;
+      document.getElementById('textbox2').value = second;
+      refresh();
+    }
+
+    function DecrementValue2() {
+      var second = parseInt(document.getElementById('textbox2').value);
+      second--;
+      document.getElementById('textbox2').value = second;
+      refresh();
+    }
+
+    function refresh() {
+      if (action === 1) {
+        myfunctionsum();
+      } else if (action === 2) {
+        myfunctionminus();
+      } else if (action === 3) {
+        myfunctionmal();
+      } else if (action === 4) {
+        myfunctiondvide();
+      }
+    }
+  </script>
+      <div class="main">calculator</div>
+  <div id="mainCalculator">
+      <img src="data/images/calculator.jpg" alt="calculator" style="margin-bottom: 20px;" >
+    <div>Enter First Value</div>
+  <input class="cal" type="text" name="textbox1" id="textbox1"> <br>
+  <input type="button" class="cal" id="button1" onclick="incrementValue1()" value="Increment Value" />
+  <input type="button" class="cal" id="button2" onclick="DecrementValue1()" value="Decrement Value" /><br>
+  <div>Enter Second Value</div>
+  <input type="text" class="cal" name="textbox2" id="textbox2" /> <br>
+  <input type="button" class="cal" id="button1" onclick="incrementValue2()" value="Increment Value" />
+  <input type="button" class="cal" id="button2" onclick="DecrementValue2()" value="Decrement Value" /><br>
+  <input type="submit" class="cal" name="button" id="button" onclick="myfunctionsum()" value="+" />
+  <input type="submit" class="cal" name="button" id="button" onclick="myfunctionminus()" value="-" />
+  <input type="submit" class="cal" name="button" id="button" onclick="myfunctionmal()" value="*" />
+  <input type="submit" class="cal" name="button" id="button" onclick="myfunctiondvide()" value="/" />
+  <br /> Your answer is:--
+  <input type="text" name="textbox3" id="textbox3" readonly="true" /><br /><br />
+  <button onclick="deleteAll();">Clear All Data</button>
+  <button id="myButton" class="float-left submit-button" >Home</button>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
+  <script type="text/javascript">
+    function deleteAll() {
+      document.getElementById("textbox1").value = "";
+      document.getElementById("textbox2").value = "";
+      document.getElementById("textbox3").value = "";
+    }
+  </script>
+</div>
+</body>
+
+</html>
