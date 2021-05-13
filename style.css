@@ -1,0 +1,132 @@
+
+
+
+body {
+    background-color: rgb(70, 77, 62);
+    color: white;
+  }
+  .main{
+    background-color: rgb(99, 106, 168);
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  .info-text{
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      max-width: 1300px;
+      text-align: center;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .foto{
+      text-align: center;
+      width: 200px;
+      height: 300px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  #logo{
+      text-align: left;
+      width: 30px;
+      height: 30px;
+      margin-top: 8px;
+  }
+  .sub-title{
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+  }
+  .small-list{
+      margin-left: 50px;
+      color: rgb(38, 192, 120);
+  }
+  #mainCalculator{
+      margin-top: 50px;
+      text-align: center;
+  }
+  .cal{
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .first-table{
+      margin-top: 10px;
+      margin-left: 10px;
+      border-style: double;
+      width: 300px;
+      height: 100px;
+  }
+
+  .demo {
+    background: #CE5937;
+    background: -moz-linear-gradient(45deg, #CE5937 0%, #1C6EA4 67%, #C59237 100%);
+    background: -webkit-linear-gradient(45deg, #CE5937 0%, #1C6EA4 67%, #C59237 100%);
+    background: linear-gradient(45deg, #CE5937 0%, #1C6EA4 67%, #C59237 100%);    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    }
+    table.blueTable {
+        margin-top: 50px;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 3px solid #010507;
+        background-color: #EEEEEE;
+        width: 500px;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      table.blueTable td, table.blueTable th {
+        border: 1px solid #AAAAAA;
+        padding: 3px 3px;
+      }
+      table.blueTable tbody td {
+        font-size: 13px;
+        color: #010507;
+      }
+      table.blueTable tr:nth-child(even) {
+        background: #D0E4F5;
+      }
+      table.blueTable thead {
+        background: #1C6EA4;
+        background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        border-bottom: 2px solid #444444;
+      }
+      table.blueTable thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-left: 2px solid #D0E4F5;
+      }
+      table.blueTable thead th:first-child {
+        border-left: none;
+      }
+      
+      table.blueTable tfoot {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #D0E4F5;
+        background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+        background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+        background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+        border-top: 1px solid #444444;
+      }
+      table.blueTable tfoot td {
+        font-size: 14px;
+      }
+      table.blueTable tfoot .links {
+        text-align: right;
+      }
+      table.blueTable tfoot .links a{
+        display: inline-block;
+        background: #1C6EA4;
+        color: #FFFFFF;
+        padding: 2px 8px;
+        border-radius: 5px;
+      }
