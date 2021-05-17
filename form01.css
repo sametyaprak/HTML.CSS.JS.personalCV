@@ -1,0 +1,43 @@
+.main {
+    background-image: linear-gradient(#5194b6,#AAAAAA);
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+.input{
+    background-color: azure;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 5%;
+    width: 15%;
+}
+.label{
+    display: block;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.buttons{
+    background-color: tomato;
+    color:black;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 5%;
+    border: 2px solid crimson;
+}
+.buttons:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.fas{
+  color: #384442;  
+}
