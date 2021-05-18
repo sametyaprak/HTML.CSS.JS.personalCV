@@ -1,0 +1,53 @@
+#foto {
+  margin: auto;
+  margin: 100;
+  /*   100 150  200 250
+        ust sag alt sol     */
+  border: dashed 10px gray;
+  /*   farkli renk verebiliriz
+        ust sag alt sol     
+        iki veri koyarsan ilk veri ust-alt 
+        ikinci veri sag-sol            */
+  padding: 20;
+}
+#title {
+  color: aqua;
+}
+#main {
+  border-style: solid;
+  width: 1000;
+  margin: auto;
+  background-color: chocolate;
+}
+#header {
+  border-style: dashed;
+  width: 500;
+  border-color: black;
+  margin: auto;
+}
+#nav {
+  border-style: dotted;
+  width: 600;
+  border-color: blue;
+  margin: auto;
+  background-color: crimson;
+}
+#article {
+  border-style: groove;
+  width: 250;
+  margin: auto;
+  background-color: chartreuse;
+}
+#aside {
+  border-style: solid;
+  border-color: blue;
+  width: 450;
+  margin: auto;
+  background-color: chartreuse;
+}
+#footer {
+  border-style: dashed;
+  width: 500;
+  border-color: black;
+  margin: auto;
+}
