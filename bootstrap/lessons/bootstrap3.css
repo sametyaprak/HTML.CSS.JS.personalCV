@@ -1,0 +1,52 @@
+.aqua{
+    background-color: aqua;
+}
+
+.blueviolet{
+    background-color: blueviolet;
+}
+.brown{
+    background-color: brown;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.main-container{
+    margin:auto;
+    margin-top: 5;
+    background-color: black;
+    align-items: center;
+}
+.text{
+    margin-left: 5px;
+    font-size: 15px;
+    color: white;
+    flex-wrap: nowrap;
+}
+.left-icon{
+    margin-left: 10px;
+    color: rgb(255, 174, 0);
+    text-align: start;
+    font-size: 25;
+}
+.right-icon{
+    margin-left: 10px;
+    color: rgb(78, 78, 253);
+    text-align: end;
+    font-size: 25;
+}
+.btn:hover{
+    background-color: green;
+}
+
+.card{
+    margin: 0 auto;
+    height: 500;
+}
